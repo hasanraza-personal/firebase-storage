@@ -51,6 +51,7 @@ const App = () => {
 	return (
 		<>
 			<div>
+				Hello This is me!
 				<div>
 					<input type='file' onChange={(e) => { setImageUpload(e.target.files[0]) }} />
 					<button onClick={uploadImage}>Upload Image</button>
